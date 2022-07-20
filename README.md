@@ -12,7 +12,35 @@ It will also install:
 
 3. Hardhat Gas Reporter
 
-## To Run
+## To Test Contracts
+
+This project uses yarn instead of NPM. So write every command with yarn
+
+To Test:
+
+```bash
+yarn hardhat test
+```
+
+To run some script:
+
+```bash
+yarn hardhat run scripts/deploy.ts
+```
+
+To run the deploy scripts:
+
+```bash
+yarn hardhat deploy
+```
+
+To run solidity coverage:
+
+```bash
+yarn hardhat coverage
+```
+
+## To Run The Script
 
 You can either run the scirpt with bash command like this:
 
