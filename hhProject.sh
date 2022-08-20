@@ -121,4 +121,4 @@ deployTest.tags = ["all"];' >> 000_Boilerplate.ts
 
 cd ..
 
-code .
+nvim .
